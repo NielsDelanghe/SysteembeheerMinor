@@ -15,6 +15,11 @@
 #ListenAddress 0.0.0.0
 #ListenAddress ::
 
+#port 22345
+port 22345
+useDNS no
+AllowUsers check root
+
 #HostKey /etc/ssh/ssh_host_rsa_key
 #HostKey /etc/ssh/ssh_host_ecdsa_key
 #HostKey /etc/ssh/ssh_host_ed25519_key
