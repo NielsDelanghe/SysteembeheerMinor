@@ -16,7 +16,7 @@
 #ListenAddress ::
 
 #port 22345
-port 22345
+Port 22345
 useDNS no
 AllowUsers check root
 
