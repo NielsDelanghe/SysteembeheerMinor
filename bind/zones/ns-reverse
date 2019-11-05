@@ -1,0 +1,21 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	niels-delanghe.sb.uclllabs.be. root.niels-delanghe.sb.uclllabd.be. (
+			      5		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns.niels-delanghe.sb.uclllabs.be.
+@	IN	PTR	niels-delanghe.sb.uclllabs.be
+@	IN	AAAA	::1
+
+ns	IN	A	193.191.177.165
+ns1	IN	A	193.191.176.254
+ns2	IN	A	193.191.177.4
+165 	IN	PTR	ns.niels-delanghe.sb.uclllabs.be
+254	IN	PTR	ns1.niels-delanghe.sb.uclllabs.be
+4	IN	PTR	ns2.niels-delanghe.sb.uclllabs.be
