@@ -3,7 +3,7 @@
 ;
 $TTL	300
 @	IN	SOA	niels-delanghe.sb.uclllabs.be. root.niels-delanghe.sb.uclllabs.be. (
-			      6969	; Serial
+				50010	; Serial
 				300	; Refresh
 			  300		; Retry
 			300		; Expire
@@ -21,7 +21,11 @@ test	IN	A	193.191.177.254
 www1	IN	A	193.191.177.165
 www2	IN	A	193.191.177.165
 secure	IN	A	193.191.177.165
-supersecure	IN	A	193.191.177.165
+supersecure	IN	A	193.191.177.65
+
+niels-delanghe.sb.uclllabs.be	A	10	193.191.177.165
+niels-delanghe.sb.uclllabs.be	MX	10	niels-delanghe.sb.uclllabs.be
+mx.niels-delanghe.sb.uclllabs.be	MX	10	niels-delanghe.sb.uclllabs.be
 
 secure.niels-delanghe.sb.uclllabs.be.	IN	CAA	0 issue "letsencrypt.org"
 secure.niels-delanghe.sb.uclllabs.be.	IN	CAA	0 iodef "mailto:root@niels-delanghe.sb.uclllabs.be"
@@ -29,3 +33,20 @@ secure.niels-delanghe.sb.uclllabs.be.	IN	CAA	0 iodef "mailto:root@niels-delanghe
 supersecure.niels-delanghe.sb.uclllabs.be.	IN	CAA	0 issue "letsencrypt.org"
 supersecure.niels-delanghe.sb.uclllabs.be.	IN      CAA     0 iodef "mailto:root@niels-delanghe.sb.uclllabs.be"
 
+subzoneeiph1k                IN      NS      ns.niels-delanghe.sb.uclllabs.be.
+subzoneou6shi                IN      NS      ns.niels-delanghe.sb.uclllabs.be.
+zonetest.niels-delanghe.sb.uclllabs.be                IN      NS      ns.niels-delanghe.sb.uclllabs.be.
+subzoneoon1ie                IN      NS      ns.niels-delanghe.sb.uclllabs.be.
+subzoneoosha5	IN	NS	ns.niels-delanghe.sb.uclllabs.be.
+subzoneaik9oh	IN	NS	ns.niels-delanghe.sb.uclllabs.be.
+subzonephu8ch	IN	NS	ns.niels-delanghe.sb.uclllabs.be.
+zonetest2.niels-delanghe.sb.uclllabs.be	IN	NS	ns.niels-delanghe.sb.uclllabs.be.
+zonetest3.niels-delanghe.sb.uclllabs.be	IN	NS	ns.niels-delanghe.sb.uclllabs.be.
+subzonecii3ai	IN	NS	ns.niels-delanghe.sb.uclllabs.be.
+subzoneais6bi	IN	NS	ns.niels-delanghe.sb.uclllabs.be.
+subzoneaf5equ	IN	NS	ns.niels-delanghe.sb.uclllabs.be.
+subzoneahw2ci	IN	NS	ns.niels-delanghe.sb.uclllabs.be.
+subzoneiunee6	IN	NS	ns.niels-delanghe.sb.uclllabs.be.
+subzonetohsh7	IN	NS	ns.niels-delanghe.sb.uclllabs.be.
+foobar	IN	NS	ns.niels-delanghe.sb.uclllabs.be.
+subzonewiax4n	IN	NS	ns.niels-delanghe.sb.uclllabs.be.
