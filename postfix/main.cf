@@ -13,7 +13,13 @@ alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
 mydestination = $myhostname, localhost.$mydomain, localhost
 relayhost = 
-mynetworks = 127.0.0.0/8
-inet_interfaces = loopback-only
+mynetworks = 127.0.0.0/8, 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16
+#inet_interfaces = loopback-only
+inet_interfaces = 193.191.177.165
 recipient_delimiter = +
+smtp_bind_address = 193.191.177.165
 
+myorigin = niels-delanghe.sb.uclllabs.be
+mydomain = niels-delanghe.sb.uclllabs.be
+myhostname = mx.niels-delanghe.sb.uclllabs.be
+relay_domains = localhost, niels-delanghe.sb.uclllabs.be

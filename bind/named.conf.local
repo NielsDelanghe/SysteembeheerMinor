@@ -20,3 +20,105 @@ zone "arne-vandoorslaer.sb.uclllabs.be"{
 	type slave;
 	masters {193.191.177.132;};
 };
+zone "subzoneeiph1k.niels-delanghe.sb.uclllabs.be" {
+        type master;
+        file "/etc/bind/zones/db.subzoneeiph1k.niels-delanghe.sb.uclllabs.be";
+        notify yes;
+};
+
+zone "subzoneou6shi.niels-delanghe.sb.uclllabs.be" {
+        type master;
+        file "/etc/bind/zones/db.subzoneou6shi.niels-delanghe.sb.uclllabs.be";
+        notify yes;
+};
+
+zone "zonetest.niels-delanghe.sb.uclllabs.be.niels-delanghe.sb.uclllabs.be" {
+        type master;
+        file "/etc/bind/zones/db.zonetest.niels-delanghe.sb.uclllabs.be.niels-delanghe.sb.uclllabs.be";
+        notify yes;
+};
+
+ zone "subzoneoon1ie.niels-delanghe.sb.uclllabs.be" {
+        type master;
+        file "/etc/bind/zones/db.subzoneoon1ie.niels-delanghe.sb.uclllabs.be";
+        notify yes;
+};
+
+zone "subzoneoosha5.niels-delanghe.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/dn.subzoneoosha5.niels-delanghe.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneaik9oh.niels-delanghe.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/dn.subzoneaik9oh.niels-delanghe.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonephu8ch.niels-delanghe.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/dn.subzonephu8ch.niels-delanghe.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "zonetest2.niels-delanghe.sb.uclllabs.be.niels-delanghe.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.zonetest2.niels-delanghe.sb.uclllabs.be.niels-delanghe.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "zonetest3.niels-delanghe.sb.uclllabs.be.niels-delanghe.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.zonetest3.niels-delanghe.sb.uclllabs.be.niels-delanghe.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonecii3ai.niels-delanghe.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzonecii3ai.niels-delanghe.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneais6bi.niels-delanghe.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzoneais6bi.niels-delanghe.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneaf5equ.niels-delanghe.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzoneaf5equ.niels-delanghe.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneahw2ci.niels-delanghe.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzoneahw2ci.niels-delanghe.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneiunee6.niels-delanghe.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzoneiunee6.niels-delanghe.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonetohsh7.niels-delanghe.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzonetohsh7.niels-delanghe.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "foobar.niels-delanghe.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.foobar.niels-delanghe.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonewiax4n.niels-delanghe.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzonewiax4n.niels-delanghe.sb.uclllabs.be";
+	notify yes;
+};
+
