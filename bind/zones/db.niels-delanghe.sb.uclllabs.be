@@ -3,7 +3,7 @@
 ;
 $TTL	300
 @	IN	SOA	niels-delanghe.sb.uclllabs.be. root.niels-delanghe.sb.uclllabs.be. (
-				50012	; Serial
+				50013	; Serial
 				300	; Refresh
 			  300		; Retry
 			300		; Expire
@@ -23,8 +23,8 @@ www2	IN	A	193.191.177.165
 secure	IN	A	193.191.177.165
 supersecure	IN	A	193.191.177.165
 
-;@	IN	MX	10 mx
-;mx	IN	A	193.191.177.165
+@	IN	MX	10 mx
+mx	IN	A	193.191.177.165
 
 secure.niels-delanghe.sb.uclllabs.be.	IN	CAA	0 issue "letsencrypt.org"
 secure.niels-delanghe.sb.uclllabs.be.	IN	CAA	0 iodef "mailto:root@niels-delanghe.sb.uclllabs.be"
