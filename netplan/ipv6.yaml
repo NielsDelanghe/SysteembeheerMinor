@@ -1,0 +1,9 @@
+network:
+        version: 2
+        renderer: networkd
+        ethernets:
+                eth0:
+                        accept-ra: no
+                        addresses:
+                                - 2001:6a8:2880:a077::a5/64
+                        gateway6: 2001:6a8:2880:a077::1
