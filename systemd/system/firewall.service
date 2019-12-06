@@ -1,0 +1,14 @@
+[Unit]
+Description=Firewall
+
+Before=network-pre.target
+Wants=network-pre.target
+After=local-fs.target
+
+DefaultDependencies=no
+[Service]
+ExecStart=/etc/init.d/firewall start
+ExecStop=/etc/init.d/firewall stop
+
+Type=oneshot
+RemainAfterExit=yes
