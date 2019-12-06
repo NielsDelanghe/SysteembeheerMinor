@@ -3,7 +3,7 @@
 ;
 $TTL	300
 @	IN	SOA	niels-delanghe.sb.uclllabs.be. root.niels-delanghe.sb.uclllabs.be. (
-				50014	; Serial
+				50018	; Serial
 				300	; Refresh
 			  300		; Retry
 			300		; Expire
@@ -25,6 +25,8 @@ supersecure	IN	A	193.191.177.165
 
 @	IN	MX	10 mx
 mx	IN	A	193.191.177.165
+
+mx	IN	AAAA	2001:6a8:2880:a077::a5
 
 niels-delanghe.sb.uclllabs.be. 		IN	AAAA	2001:6a8:2880:a077::a5
 ns.niels-delanghe.sb.uclllabs.be.	IN	AAAA	2001:6a8:2880:a077::a5	
