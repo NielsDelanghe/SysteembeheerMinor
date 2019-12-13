@@ -1,0 +1,27 @@
+#!/bin/bash
+
+function start () {
+	iptables-restore  /etc/network/firewall_ipv4_rules
+	ip6tables-restore  /etc/network/firewall_ipv6_rules
+	}
+
+function stop () {
+	iptables-restore /etc/network/firewall_ipv4_empty
+	ip6tables-restore /etc/network/firewall_ipv6_empty
+}
+
+case $1 in
+start)
+	start
+	;;
+stop)
+	stop
+	;;
+restart)
+	stop
+	start
+	;;
+*)
+	exit 1;
+esac
+
